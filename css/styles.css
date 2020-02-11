@@ -1,4 +1,4 @@
-body {
+body:not(p) {
   text-align: center;
   font-family: "Roboto", monospace;
   margin-right:auto;
@@ -6,13 +6,6 @@ body {
   width: 396px;
 }
 
-p{
- text-align: unset;
- font-family: unset;
- margin-right: unset;
- margin-left: unset;
- width: unset;
-}
 
 h1 {
   margin: 0 auto;
