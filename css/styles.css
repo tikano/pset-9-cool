@@ -6,6 +6,13 @@ body {
   width: 396px;
 }
 
+p{
+ text-align: unset;
+ font-family: unset;
+ margin-right: unset;
+ margin-left: unset;
+ width: unset;
+}
 
 h1 {
   margin: 0 auto;
