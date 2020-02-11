@@ -1,4 +1,4 @@
-div
+.squire
 {
  width:60px;
  height:60px;
@@ -12,8 +12,6 @@ div
   margin-right:auto;	
   margin-left: auto;	
   width: 396px;
-  height: unset;
-  float: unset;
 }
 
 #mainChessBoard
