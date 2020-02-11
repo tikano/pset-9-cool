@@ -8,7 +8,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
-    <script defer src=""></script>
+    <script defer src="js/app2.js"></script>
 
     <title> Checkers </title>
   </head>
@@ -20,23 +20,7 @@
   <h1>checkers</h1>
 
     <div class="container column">
-      <script type="text/javascript">
-      var table = document.createElement("table");
-    for (var i = 1; i < 9; i++) {
-    var tr = document.createElement('tr');
-    for (var j = 1; j < 9; j++) {
-        var td = document.createElement('td');
-        if (i%2 == j%2) {
-            td.className = "white";
-        } else {
-            td.className = "black";
-        }
-        tr.appendChild(td);
-    }
-    table.appendChild(tr);
-}
-document.body.appendChild(table);
-      </script>
+      
       <div id = "buttons">
         <div id="reset-button">Play Again!</div>
         <div id="player-toggle">Two Players</div>
