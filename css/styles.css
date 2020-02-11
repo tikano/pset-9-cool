@@ -1,9 +1,19 @@
+div
+{
+ width:20px;
+ height:20px;
+ float:left;
+}
+
+
 .bigdiv {	
   text-align: center;	
   font-family: "Roboto", monospace;	
   margin-right:auto;	
   margin-left: auto;	
-  width: 396px;	
+  width: 396px;
+  height: unset;
+  float: unset;
 }
 
 #mainChessBoard
@@ -13,19 +23,6 @@
     border:1px solid black;
 }
 
-.squire
-{
- width:20px;
- height:20px;
- float:left;
-}
-
-.class
-{
- width:20px;
- height:20px;
- float:left;
-}
 
 h1 {
   margin: 0 auto;
