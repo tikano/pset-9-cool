@@ -13,6 +13,13 @@
     border:1px solid black;
 }
 
+div
+{
+ width:20px;
+ height:20px;
+ float:left;
+}
+
 .class
 {
  width:20px;
